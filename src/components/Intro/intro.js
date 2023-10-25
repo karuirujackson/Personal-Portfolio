@@ -10,10 +10,10 @@ function Intro() {
         <div className='introContent'>
             <span className='hello'>Hello, <br/></span>
             <span className='introText'>I'm <span className='introName'>Jackson</span> <br />A Frontend Developer </span>
-            <p>I am a skilled frontend developer with experience in creating Visually appealing, interactive and user friendly web applications.</p>
+            <p className='introPara'>I am a skilled Frontend Developer with experience in creating visually appealing, <br/> interactive and user friendly web applications.</p>
             <Link>
                 <button className='btn'>
-                    <img src= { BtnImg } alt="" />
+                    <img src= { BtnImg } alt="Hire Me" className='btnImg'/>
                     Hire Me
                 </button>
             </Link>

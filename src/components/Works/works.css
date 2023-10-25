@@ -1,0 +1,62 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 65rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+
+.worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.worksImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.worksBtn {
+    background: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2rem; 
+    margin: 2rem 0;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    
+}
+
+.worksBtn:hover {
+    background: yellow;
+    cursor: pointer;
+    text-decoration: red underline 2px;
+    color: blue;
+}
+
+@media screen and (max-width: 585px) {
+    .worksImg {
+        height: 48vw;
+    }
+}
