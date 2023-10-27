@@ -12,7 +12,9 @@
 
 .worksTitle {
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .worksDesc {
