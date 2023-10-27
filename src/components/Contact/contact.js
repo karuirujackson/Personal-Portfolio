@@ -14,9 +14,12 @@ function Contact() {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_1rjb344', 'template_jh5ijnk', form.current, 'FCLpQiB24ahCito_QCl4e')
+        emailjs.sendForm('service_1rjb344', 'template_jh5ijnk', form.current, 'TYfXeNXO3r5q6d1h9')
         .then((result) => {
             console.log(result.text);
+            //Reset the form once an message is sent and send an alert message.
+            e.target.reset();
+            alert('Email Sent!');
         }, (error) => {
             console.log(error.text);
         });
